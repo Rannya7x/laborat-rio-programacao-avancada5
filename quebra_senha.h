@@ -3,6 +3,7 @@
 #include "string.h"
 extern int tamanhoMaximo;
 extern char caracteres[];
+extern char* senhaCriptografada;
 void gerar_palavras_recursivo(char *atual, int posicao, int profundidade);
 int verifica_senha(char *senha_teste, char *senha_criptografada);
 #endif
