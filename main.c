@@ -1,9 +1,10 @@
 //como comentar varias linhas de código
 #include <stdio.h>
-#include "quebra_senha.h"
+#include "verifica_senha.h"
 
-int tamanhoMaximo = 3;
-char caracteres[]= "abc";
+int tamanhoMaximo = 5;
+char caracteres[]= "0123456789";
+char* senhaCriptografada = "$6$l2xE4w9twgjtnZBz$9YK9krslZFraLffy5VNiahAfT.xZNvB54j91DMCMIoVFvj335ZKxb11qgVMn.KzU2GqVPPyS2FTBqPSciYq761";
 
 int main() {
 	
